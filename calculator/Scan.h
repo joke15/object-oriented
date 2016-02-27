@@ -15,7 +15,7 @@ class Scan
 			int i;
 			bool j=false;
 			string m_strS;
-            int k=0;
+            int k=0;  //利用k值判断数字中是否含有小数点，方便之后对数字位数的统计// 
             int l;
 			for (i=0; i<input.size();i++)
 			{	
@@ -39,7 +39,7 @@ class Scan
                 l=m_strS.size();
                 if (l+k>10)
                 {
-                	m_queQ.push("E");
+                	m_queQ.push("E");//在队列最后插入E，标记此时得到的数字超过十位// 
                     break;
                 }
 				if(j)
