@@ -8,11 +8,11 @@ using namespace std;
 
 int main ()
 {
-	Scan scan;
-	Print print;
-	string s;//用S记录用户输入的四则表达式// 
-	cin >>s;
-	queue<string> q=scan.ToStringQueue(s);
-	print.output(q);
-	return 0;
+    Scan scan;
+    Print print;
+    string s;
+    cin >> s;
+    queue<string> q=scan.ToStringQueue(s);
+    print.output(q);
+    return 0;
 }
