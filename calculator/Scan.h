@@ -22,10 +22,10 @@ class Scan
                           数字提取出来，存入队列中，并返回队列
         Input:            1. input   传入函数的string变量
                           2. i       记录循环的次数
-        				  3. k       判断是否有小数点
-        				  4. m_strS  临时储存需要存入队列的string
-        				  5. j       判断提取的数字或符号是否完整
-        				  6. l       判断m_strS的长度
+        		  3. k       判断是否有小数点
+        		  4. m_strS  临时储存需要存入队列的string
+        		  5. j       判断提取的数字或符号是否完整
+        		  6. l       判断m_strS的长度
         Output:           无
         Return:           返回为队列
         Others：          无
